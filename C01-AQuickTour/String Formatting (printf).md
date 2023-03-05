@@ -1,0 +1,3 @@
+- A format (printf) contains normal text together with format specifiers that tell the formatter how you want the subsequent values to be formatted.
+- %f formats floating-point values, %e formats a floating point value in scientific notation, %d for normal decimal, %x for hexadecimal, and %s for strings.
+- You can provide a width that indicates the minimum number of characters to print - useful for aligning columns of data.

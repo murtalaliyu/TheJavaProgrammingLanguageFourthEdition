@@ -1,0 +1,2 @@
+- The binary boolean operators - AND (&), inclusive-OR ( | ), and exclusive-OR ( ^ ) - are logical operators when their operands are boolean values and bitwise operators when their operands are integer values.
+- The conditional-OR ( | | ) and conditional-AND (&&) operators are logical operators and can only be used with boolean operands.

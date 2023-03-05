@@ -1,0 +1,5 @@
+- "static" (a modifier), means that the method belongs to the class and is not associated with a particular instance of the class. [p. 14]
+- Static methods cannot directly access non-static members. 
+	- When a static method is invoked, there's no specific object for the method to operate on, and so no "this" reference. 
+	- In general, static methods perform class-related tasks and non-static methods perform object-related tasks.
+- Asking a static method to work on object fields (non-statics) is like asking the Walkman factory to change the serial number of a Walkman hanging on the belt of a jogger in Golden Gate Park.
