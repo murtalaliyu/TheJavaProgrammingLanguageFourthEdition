@@ -1,0 +1,1 @@
+- All the members of an interface are implicitly, or explicitly, public - so they can be accessed anywhere the interface itself is accessible.
