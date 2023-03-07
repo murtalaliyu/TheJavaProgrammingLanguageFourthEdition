@@ -1,8 +1,8 @@
 package examples.genericTypes;
 
 class IntegerLookup implements Lookup<Integer> {
-    private String[] names;
-    private Integer[] values;
+    private String[] names = { "One", "two" };
+    private Integer[] values = { 1, 2 };
 
     public static void main(String[] args) {
         Lookup<Integer> table = new IntegerLookup();
