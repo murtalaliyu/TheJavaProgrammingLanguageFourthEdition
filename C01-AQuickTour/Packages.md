@@ -1,0 +1,3 @@
+- The standard convention is to use the reversed Internet domain name of the organization to prefix the package name.
+- For example, if the Acme Corporation had the Internet domain `acme.com`, it would use package names starting with `com.acme`, as in `com.acme.tools`.
+- Classes should always be part of a package.
