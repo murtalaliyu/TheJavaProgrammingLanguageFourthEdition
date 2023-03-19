@@ -37,26 +37,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C02-ClassesAndObjects/2. Class Modifiers.md",
+                "file": "C02-ClassesAndObjects/3. Fields.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "b6aabd45a64ba39f",
+            "id": "07fae1d94e73b68a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C02-ClassesAndObjects/3. Fields.md",
+                "file": "C02-ClassesAndObjects/4. Creating Objects.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c603be3bd0f1983d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C02-ClassesAndObjects/5. Construction & Initialization.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C02-ClassesAndObjects/3. Fields.md",
+                "file": "C02-ClassesAndObjects/5. Construction & Initialization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C02-ClassesAndObjects/3. Fields.md",
+                "file": "C02-ClassesAndObjects/5. Construction & Initialization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C02-ClassesAndObjects/3. Fields.md"
+                "file": "C02-ClassesAndObjects/5. Construction & Initialization.md"
               }
             }
           }
@@ -184,24 +196,31 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1b703ea8eee59a3a",
+  "active": "c603be3bd0f1983d",
   "lastOpenFiles": [
-    "C02-ClassesAndObjects/2. Class Modifiers.md",
-    "C02-ClassesAndObjects/1. Class Members.md",
-    "C02-ClassesAndObjects/3. Fields.md",
-    "C02-ClassesAndObjects/exercises/_2_02/LinkedList.java",
-    "C02-ClassesAndObjects/exercises/_2_02",
-    "C02-ClassesAndObjects/exercises/_2_01/Vehicle.java",
-    "C02-ClassesAndObjects/exercises/_2_01",
-    "Untitled.md",
+    "out/production/C02-ClassesAndObjects/examples/initializationBlocks/Body.class",
+    "out/production/C02-ClassesAndObjects/examples/initializationBlocks",
+    "out/production/C02-ClassesAndObjects/5. Construction & Initialization.md",
+    "C02-ClassesAndObjects/4. Creating Objects.md",
+    "C02-ClassesAndObjects/5. Construction & Initialization.md",
+    "out/production/C02-ClassesAndObjects/exercises/_2_08/LinkedList.class",
+    "out/production/C02-ClassesAndObjects/exercises/_2_08",
+    "C02-ClassesAndObjects/examples/initializationBlocks/Body.java",
+    "C02-ClassesAndObjects/examples/initializationBlocks",
     "C01-AQuickTour/1. The Java Platform.md",
-    "C02-ClassesAndObjects/examples/aSimpleClass/Body.java",
-    "C02-ClassesAndObjects/examples/aSimpleClass",
-    "C02-ClassesAndObjects/examples/Body.java",
+    "C02-ClassesAndObjects/exercises/_2_08/LinkedList.java",
+    "C02-ClassesAndObjects/exercises/_2_08",
+    "out/production/C02-ClassesAndObjects/exercises/_2_06/LinkedList.class",
+    "out/production/C02-ClassesAndObjects/exercises/_2_06",
+    "out/production/C02-ClassesAndObjects/4. Creating Objects.md",
+    "C02-ClassesAndObjects/3. Fields.md",
+    "C02-ClassesAndObjects/2. Class Modifiers.md",
+    "out/production/C02-ClassesAndObjects/2. Class Modifiers.md",
+    "out/production/C02-ClassesAndObjects/3. Fields.md",
+    "out/production/C02-ClassesAndObjects/1. Class Members.md",
+    "C02-ClassesAndObjects/1. Class Members.md",
+    "Untitled.md",
     "C01-AQuickTour/String Formatting (printf).md",
-    "C02-ClassesAndObjects/exercises",
-    "C02-ClassesAndObjects/examples",
-    "C02-ClassesAndObjects/C02-ClassesAndObjects.iml",
     "C01-AQuickTour/Packages.md",
     "out/production/The Java Programming Language, Fourth Edition/Annotations.md",
     "out/production/The Java Programming Language, Fourth Edition/Packages.md",
@@ -214,14 +233,6 @@
     "out/production/The Java Programming Language, Fourth Edition/out/production/C01-AQuickTour/Operators.md",
     "out/production/The Java Programming Language, Fourth Edition/out/production/C01-AQuickTour/Interfaces.md",
     "out/production/The Java Programming Language, Fourth Edition/Operators.md",
-    "out/production/The Java Programming Language, Fourth Edition/Interfaces.md",
-    "out/production/The Java Programming Language, Fourth Edition/Generic Types.md",
-    "out/production/The Java Programming Language, Fourth Edition/Exceptions.md",
-    "C01-AQuickTour/Generic Types.md",
-    "C01-AQuickTour/Interfaces.md",
-    "C01-AQuickTour/out/production/C01-AQuickTour/String Formatting (printf).md",
-    "C01-AQuickTour/out/production/C01-AQuickTour/Static Fields & Methods.md",
-    "C01-AQuickTour/out/production/C01-AQuickTour/Operators.md",
     "Untitled.canvas"
   ]
 }
