@@ -1,11 +1,11 @@
 package exercises._2_08;
 
-class LinkedList {
+public class LinkedList {
 
-    Object object;
-    LinkedList next;
+    protected Object object;
+    protected LinkedList next;
 
-    LinkedList() {}
+    protected LinkedList() {}
 
     LinkedList(Object object) {
         this.object = object;
@@ -15,7 +15,7 @@ class LinkedList {
         this.next = next;
     }
 
-    LinkedList(Object object, LinkedList next) {
+    protected LinkedList(Object object, LinkedList next) {
         this.object = object;
         this.next = next;
     }

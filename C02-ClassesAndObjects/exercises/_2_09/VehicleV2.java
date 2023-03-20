@@ -1,22 +1,19 @@
-package exercises._2_07;
+package exercises._2_09;
 
-public class Vehicle {
+import exercises._2_07.Vehicle;
 
-    protected final long id = nextId++;
-    protected double currentSpeed;
-    protected double currentDirection;
-    protected String ownerName;
+public class VehicleV2 extends Vehicle {
 
-    protected static long nextId = 1;
-    
-    public Vehicle() {}
-
-    protected Vehicle(String ownerName) {
+    protected VehicleV2(String ownerName) {
         this.ownerName = ownerName;
     }
-    
+
+    static long getHighestId() {
+        return Vehicle.nextId - 1;
+    }
+
     public static void main(String[] args) {
-        Vehicle toyota = new Vehicle("Smith");
+        VehicleV2 toyota = new VehicleV2("Smith");
         toyota.currentSpeed = 23.3;
         toyota.currentDirection = 65;
         System.out.println("toyota id: " + toyota.id);
@@ -25,7 +22,7 @@ public class Vehicle {
         System.out.println("toyota ownerName: " + toyota.ownerName);
         System.out.println("Vehicle nextId: " + Vehicle.nextId);
 
-        Vehicle kia = new Vehicle("Jane");
+        VehicleV2 kia = new VehicleV2("Jane");
         kia.currentSpeed = 324;
         kia.currentDirection = 76;
         System.out.println("\nkia id: " + kia.id);
@@ -33,6 +30,8 @@ public class Vehicle {
         System.out.println("kia currentDirection: " + kia.currentDirection);
         System.out.println("kia ownerName: " + kia.ownerName);
         System.out.println("Vehicle nextId: " + Vehicle.nextId);
+
+        System.out.println("\nHighest ID: " + getHighestId());
     }
 
 }

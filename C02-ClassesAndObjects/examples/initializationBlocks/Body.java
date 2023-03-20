@@ -1,8 +1,8 @@
 package examples.initializationBlocks;
 
-class Body {
+public class Body {
 
-    public long idNum;
+    private long idNum;
     public String name = "<unnamed>";
     public Body orbits = null;
 
@@ -18,6 +18,16 @@ class Body {
     public Body(String bodyName, Body orbitsAround) {
         name = bodyName;
         orbits = orbitsAround;
+    }
+
+    public long getID() {
+        return idNum;
+    }
+
+    public String toString() {
+        String desc = idNum + " (" + name + ")";
+        if (orbits != null) desc += " orbits " + orbits.toString();
+        return desc;
     }
 
     public static void main(String[] args) {
