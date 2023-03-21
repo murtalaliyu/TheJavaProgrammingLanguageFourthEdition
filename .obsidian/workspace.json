@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0c0306692a299c3d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C02-ClassesAndObjects/7. Native Methods.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C02-ClassesAndObjects/6. Methods.md",
+                "file": "C02-ClassesAndObjects/7. Native Methods.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C02-ClassesAndObjects/6. Methods.md",
+                "file": "C02-ClassesAndObjects/7. Native Methods.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C02-ClassesAndObjects/6. Methods.md"
+                "file": "C02-ClassesAndObjects/7. Native Methods.md"
               }
             }
           }
@@ -147,19 +160,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c299e4ad77e2306a",
+  "active": "0c0306692a299c3d",
   "lastOpenFiles": [
-    "out/production/C02-ClassesAndObjects/examples/initializationBlocks/Body.class",
-    "out/production/C02-ClassesAndObjects/examples/initializationBlocks",
-    "out/production/C02-ClassesAndObjects/examples/parameterValues/PassRef.class",
-    "out/production/C02-ClassesAndObjects/examples/parameterValues/Body.class",
-    "out/production/C02-ClassesAndObjects/examples/parameterValues/PassByValue.class",
-    "out/production/C02-ClassesAndObjects/examples/parameterValues",
-    "C02-ClassesAndObjects/examples/parameterValues/PassRef.java",
+    "C02-ClassesAndObjects/6. Methods.md",
+    "C02-ClassesAndObjects/7. Native Methods.md",
+    "out/production/C02-ClassesAndObjects/exercises/_2_06/LinkedList.class",
+    "out/production/C02-ClassesAndObjects/exercises/_2_06",
+    "out/production/C02-ClassesAndObjects/exercises/_2_10/VehicleV3.class",
+    "out/production/C02-ClassesAndObjects/exercises/_2_10",
     "out/production/C02-ClassesAndObjects/exercises/_2_11/LinkedListV2.class",
     "out/production/C02-ClassesAndObjects/exercises/_2_11",
-    "out/production/C02-ClassesAndObjects/exercises/_2_08/LinkedList.class",
-    "out/production/C02-ClassesAndObjects/exercises/_2_08",
+    "out/production/C02-ClassesAndObjects/exercises/_2_09/VehicleV2.class",
+    "out/production/C02-ClassesAndObjects/exercises/_2_09",
+    "out/production/C02-ClassesAndObjects/examples/parameterValues/PassRef.class",
+    "out/production/C02-ClassesAndObjects/examples/initializationBlocks/Body.class",
     "C02-ClassesAndObjects/3. Fields.md",
     "C02-ClassesAndObjects/2. Class Modifiers.md",
     "C02-ClassesAndObjects/1. Class Members.md",
@@ -173,7 +187,6 @@
     "C01-AQuickTour/Annotations.md",
     "C02-ClassesAndObjects/5. Construction & Initialization.md",
     "C02-ClassesAndObjects/4. Creating Objects.md",
-    "C02-ClassesAndObjects/6. Methods.md",
     "out/production/C02-ClassesAndObjects/6. Methods.md",
     "C01-AQuickTour/1. The Java Platform.md",
     "out/production/C02-ClassesAndObjects/5. Construction & Initialization.md",
