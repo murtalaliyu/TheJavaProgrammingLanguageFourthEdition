@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "9db52d66b3e9f1a9",
+        "id": "c362f0f2471ec791",
         "type": "tabs",
         "children": [
           {
-            "id": "c299e4ad77e2306a",
+            "id": "8b867fcaf1b5862a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C02-ClassesAndObjects/6. Methods.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0c0306692a299c3d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C02-ClassesAndObjects/7. Native Methods.md",
+                "file": "C02-ClassesAndObjects/3. Fields.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C02-ClassesAndObjects/7. Native Methods.md",
+                "file": "C02-ClassesAndObjects/3. Fields.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C02-ClassesAndObjects/7. Native Methods.md",
+                "file": "C02-ClassesAndObjects/3. Fields.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C02-ClassesAndObjects/7. Native Methods.md"
+                "file": "C02-ClassesAndObjects/3. Fields.md"
               }
             }
           }
@@ -160,44 +147,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0c0306692a299c3d",
+  "active": "1b703ea8eee59a3a",
   "lastOpenFiles": [
-    "C02-ClassesAndObjects/6. Methods.md",
-    "C02-ClassesAndObjects/7. Native Methods.md",
-    "out/production/C02-ClassesAndObjects/exercises/_2_06/LinkedList.class",
-    "out/production/C02-ClassesAndObjects/exercises/_2_06",
-    "out/production/C02-ClassesAndObjects/exercises/_2_10/VehicleV3.class",
-    "out/production/C02-ClassesAndObjects/exercises/_2_10",
-    "out/production/C02-ClassesAndObjects/exercises/_2_11/LinkedListV2.class",
-    "out/production/C02-ClassesAndObjects/exercises/_2_11",
-    "out/production/C02-ClassesAndObjects/exercises/_2_09/VehicleV2.class",
-    "out/production/C02-ClassesAndObjects/exercises/_2_09",
-    "out/production/C02-ClassesAndObjects/examples/parameterValues/PassRef.class",
-    "out/production/C02-ClassesAndObjects/examples/initializationBlocks/Body.class",
-    "C02-ClassesAndObjects/3. Fields.md",
+    "out/production/The Java Programming Language, Fourth Edition/PassengerVehicle.class",
+    "out/production/The Java Programming Language, Fourth Edition/ScreenColor.class",
+    "out/production/The Java Programming Language, Fourth Edition/ColorAttr.class",
+    "out/production/The Java Programming Language, Fourth Edition/Attr.class",
+    "out/production/The Java Programming Language, Fourth Edition/exercises/_1_15/LookupV2.class",
+    "out/production/The Java Programming Language, Fourth Edition/exercises/_1_15/ExtendedLookup.class",
+    "out/production/The Java Programming Language, Fourth Edition/exercises/_1_15",
+    "out/production/The Java Programming Language, Fourth Edition/exercises/_1_14/WalkmanV3.class",
+    "out/production/The Java Programming Language, Fourth Edition/exercises/_1_14/WalkmanV2.class",
+    "out/production/The Java Programming Language, Fourth Edition/exercises/_1_14/WalkmanV1.class",
+    "out/production/The Java Programming Language, Fourth Edition/exercises/_1_14/ChatBox.class",
+    "out/production/C02-ClassesAndObjects/7. Native Methods.md",
+    "out/production/The Java Programming Language, Fourth Edition/0. Extending Classes.md",
+    "out/production/The Java Programming Language, Fourth Edition/String Formatting (printf).md",
+    "out/production/The Java Programming Language, Fourth Edition/Static Fields & Methods.md",
+    "out/production/The Java Programming Language, Fourth Edition/Packages.md",
+    "out/production/The Java Programming Language, Fourth Edition/out/production/C01-AQuickTour/String Formatting (printf).md",
+    "out/production/The Java Programming Language, Fourth Edition/out/production/C01-AQuickTour/Static Fields & Methods.md",
+    "out/production/The Java Programming Language, Fourth Edition/out/production/C01-AQuickTour/Operators.md",
+    "out/production/The Java Programming Language, Fourth Edition/out/production/C01-AQuickTour/Interfaces.md",
+    "out/production/The Java Programming Language, Fourth Edition/Operators.md",
+    "out/production/The Java Programming Language, Fourth Edition/Interfaces.md",
+    "out/production/The Java Programming Language, Fourth Edition/Generic Types.md",
+    "out/production/The Java Programming Language, Fourth Edition/Exceptions.md",
+    "out/production/The Java Programming Language, Fourth Edition/Annotations.md",
+    "out/production/The Java Programming Language, Fourth Edition/1. The Java Platform.md",
     "C02-ClassesAndObjects/2. Class Modifiers.md",
+    "C02-ClassesAndObjects/6. Methods.md",
+    "C03-ExtendingClasses/0. Extending Classes.md",
     "C02-ClassesAndObjects/1. Class Members.md",
+    "C02-ClassesAndObjects/7. Native Methods.md",
+    "C02-ClassesAndObjects/3. Fields.md",
     "C01-AQuickTour/String Formatting (printf).md",
     "C01-AQuickTour/Static Fields & Methods.md",
     "C01-AQuickTour/Packages.md",
     "C01-AQuickTour/Generic Types.md",
-    "C01-AQuickTour/Interfaces.md",
-    "C01-AQuickTour/Operators.md",
-    "C01-AQuickTour/Exceptions.md",
-    "C01-AQuickTour/Annotations.md",
-    "C02-ClassesAndObjects/5. Construction & Initialization.md",
-    "C02-ClassesAndObjects/4. Creating Objects.md",
-    "out/production/C02-ClassesAndObjects/6. Methods.md",
-    "C01-AQuickTour/1. The Java Platform.md",
-    "out/production/C02-ClassesAndObjects/5. Construction & Initialization.md",
-    "out/production/C02-ClassesAndObjects/4. Creating Objects.md",
-    "out/production/C02-ClassesAndObjects/2. Class Modifiers.md",
-    "out/production/C02-ClassesAndObjects/3. Fields.md",
-    "out/production/C02-ClassesAndObjects/1. Class Members.md",
-    "Untitled.md",
-    "out/production/The Java Programming Language, Fourth Edition/Annotations.md",
-    "out/production/The Java Programming Language, Fourth Edition/Packages.md",
-    "out/production/The Java Programming Language, Fourth Edition/String Formatting (printf).md",
     "Untitled.canvas"
   ]
 }
