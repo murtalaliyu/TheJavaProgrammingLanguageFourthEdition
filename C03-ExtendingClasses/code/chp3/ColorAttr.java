@@ -21,6 +21,9 @@ class ColorAttr extends Attr {
         return retval;
     }
 
+    @Override
+    public void hi(int[] arr) {}
+
     /** Set value to ScreenColor, not description */
     public ScreenColor setValue(ScreenColor newValue) {
         // do the superclass's setValue work first

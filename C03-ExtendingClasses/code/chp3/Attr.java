@@ -24,4 +24,6 @@ public class Attr {
 
     public String toString() { return name + "='" + value + "'"; }
 
+    public void hi(int ...arr) {}
+
 }
