@@ -186,10 +186,11 @@
   },
   "active": "9cf72a7daa7735b6",
   "lastOpenFiles": [
+    "out/production/The Java Programming Language, Fourth Edition/ExtendShow.class",
+    "out/production/The Java Programming Language, Fourth Edition/5. Accessing Inherited Members.md",
     "C03-ExtendingClasses/4. Inheriting and Redefining Members.md",
     "C03-ExtendingClasses/5. Accessing Inherited Members.md",
     "out/production/The Java Programming Language, Fourth Edition/SuperShow.class",
-    "out/production/The Java Programming Language, Fourth Edition/ExtendShow.class",
     "out/production/The Java Programming Language, Fourth Edition/ScreenColor.class",
     "out/production/The Java Programming Language, Fourth Edition/ColorAttr.class",
     "out/production/The Java Programming Language, Fourth Edition/Y.class",
@@ -220,8 +221,6 @@
     "C01-AQuickTour/Interfaces.md",
     "C01-AQuickTour/Generic Types.md",
     "C01-AQuickTour/Exceptions.md",
-    "C01-AQuickTour/Annotations.md",
-    "C01-AQuickTour/1. The Java Platform.md",
     "Untitled.canvas"
   ]
 }

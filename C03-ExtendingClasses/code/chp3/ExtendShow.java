@@ -10,11 +10,11 @@ class ExtendShow extends SuperShow {
         ExtendShow ext = new ExtendShow();
         SuperShow sup = ext;
 
-        sup.show();
-        ext.show();
+        sup.show(); // Extend.show: ExtendShow
+        ext.show(); // Extend.show: ExtendShow
 
-        System.out.println("sup.str = " + sup.str);
-        System.out.println("ext.str = " + ext.str);
+        System.out.println("sup.str = " + sup.str); // sup.str = SuperStr
+        System.out.println("ext.str = " + ext.str); // ext.str = ExtendStr
     }
 
 }
