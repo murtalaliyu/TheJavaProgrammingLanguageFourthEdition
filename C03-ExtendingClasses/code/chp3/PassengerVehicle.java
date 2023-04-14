@@ -9,7 +9,7 @@ public class PassengerVehicle extends VehicleV4 {
     private int numberCurrentlyOccupied;
 
     public int getNumberOfSeats() { return numberOfSeats; }
-    public void setNumberOfSeats(int numberOfSeats) { this.numberOfSeats = numberOfSeats; }
+    public final void setNumberOfSeats(int numberOfSeats) { this.numberOfSeats = numberOfSeats; }
     public int getNumberCurrentlyOccupied() { return numberCurrentlyOccupied; }
     public void setNumberCurrentlyOccupied(int numberCurrentlyOccupied) { this.numberCurrentlyOccupied = numberCurrentlyOccupied; }
 
