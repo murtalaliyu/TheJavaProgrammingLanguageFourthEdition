@@ -1,3 +1,5 @@
+package chp3;
+
 class SuperShow {
 
     public String str = "SuperStr";

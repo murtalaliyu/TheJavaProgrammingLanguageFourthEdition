@@ -1,3 +1,5 @@
+package chp3;
+
 class X {
 
     protected int xMask = 0x00ff;

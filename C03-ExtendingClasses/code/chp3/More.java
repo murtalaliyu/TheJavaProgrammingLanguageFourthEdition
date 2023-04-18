@@ -1,3 +1,5 @@
+package chp3;
+
 class More extends Base {
 
     protected String name() { return "More"; }

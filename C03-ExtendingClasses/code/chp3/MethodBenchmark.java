@@ -1,4 +1,6 @@
-public class MethodBenchmark extends Benchmark {
+package chp3;
+
+class MethodBenchmark extends Benchmark {
 
     /** Do nothing, just return. */
     void benchmark() {}

@@ -1,6 +1,4 @@
-package exercises._2_17;
-
-import exercises._2_15.VehicleV2;
+package chp2;
 
 public class VehicleV3 extends VehicleV2 {
 

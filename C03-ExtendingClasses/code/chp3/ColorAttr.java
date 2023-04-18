@@ -1,3 +1,7 @@
+package chp3;
+
+import java.util.Objects;
+
 class ColorAttr extends Attr {
 
     private ScreenColor myColor;    // the decoded color
@@ -12,6 +16,24 @@ class ColorAttr extends Attr {
     public ColorAttr(String name, ScreenColor value) {
         super(name, value.toString());
         myColor = value;
+    }
+
+    @Override
+    public boolean equals(Object colorAttr) {
+        ColorAttr newColorAttr = (ColorAttr) colorAttr;
+        return (this.getName() != null && this.getName().equals(newColorAttr.getName()))
+                && (this.getValue() != null && this.getValue().equals(newColorAttr.getValue()))
+                && (this.myColor != null && this.myColor.equals(newColorAttr.myColor));
+    }
+
+    @Override
+    public int hashCode() {
+        int result = 1;
+        int prime = 77;
+        result = prime * result + ((getName() == null) ? 0 : getName().hashCode());
+        result = prime * result + ((getValue() == null) ? 0 : getValue().hashCode());
+        result = prime * result + ((getColor() == null) ? 0 : getColor().hashCode());
+        return result;
     }
 
     public Object setValue(Object newValue) {
@@ -42,6 +64,17 @@ class ColorAttr extends Attr {
     protected void decodeColor() {
         if (getValue() == null) myColor = null;
         else myColor = new ScreenColor(getValue());
+    }
+
+    public static void main(String[] args) {
+        ColorAttr white = new ColorAttr("White", 0xFFFF);
+        ColorAttr black = new ColorAttr("Black", 0x0000);
+
+        System.out.println("White equals Black: " + white.equals(black));
+        System.out.println("White equals White: " + white.equals(white));
+        System.out.println("Black equals Black: " + black.equals(black));
+        System.out.println("White Hash: " + white.hashCode());
+        System.out.println("Black Hash: " + black.hashCode());
     }
 
 }

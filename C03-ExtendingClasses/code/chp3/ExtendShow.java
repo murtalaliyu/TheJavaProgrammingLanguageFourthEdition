@@ -1,3 +1,5 @@
+package chp3;
+
 class ExtendShow extends SuperShow {
 
     public String str = "ExtendStr";

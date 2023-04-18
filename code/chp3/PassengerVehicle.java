@@ -1,4 +1,6 @@
-import exercises._2_18.VehicleV4;
+package chp3;
+
+import chp2.VehicleV4;
 
 /**
  * Exercise 3.1

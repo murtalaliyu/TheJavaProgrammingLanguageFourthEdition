@@ -1,3 +1,5 @@
+package chp3;
+
 abstract class Benchmark {
 
     abstract void benchmark();

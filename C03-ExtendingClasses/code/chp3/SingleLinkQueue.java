@@ -1,3 +1,5 @@
+package chp3;
+
 public class SingleLinkQueue {
 
     protected Cell head;

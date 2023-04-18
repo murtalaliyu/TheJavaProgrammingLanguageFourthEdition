@@ -1,3 +1,5 @@
+package chp3;
+
 public class Attr {
 
     private final String name;

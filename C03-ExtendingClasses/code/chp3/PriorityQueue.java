@@ -1,3 +1,5 @@
+package chp3;
+
 public class PriorityQueue extends SingleLinkQueue {
 
     @Override

@@ -1,3 +1,5 @@
+package chp3;
+
 class Base {
 
     /** return the class name */

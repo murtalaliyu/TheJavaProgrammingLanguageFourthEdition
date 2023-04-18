@@ -1,3 +1,5 @@
+package chp3;
+
 class Y extends X {
     /**
      * Exercise 3.2
