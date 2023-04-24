@@ -2,7 +2,8 @@ package chp3;
 
 public class GasTank extends EnergySource {
     @Override
-    protected void empty() {
-        System.out.println("empty() in GasTank");
+    public boolean empty() {
+        System.out.println("Enter GasTank::empty");
+        return false;
     }
 }

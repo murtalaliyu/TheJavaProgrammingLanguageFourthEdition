@@ -14,6 +14,12 @@ public class Vehicle implements Cloneable {
 
     private static long nextId;
 
+    public Vehicle() {}
+
+    public Vehicle(EnergySource energySource) {
+        this.energySource = energySource;
+    }
+
     protected Vehicle clone() {
         try {
             Vehicle vehicleClone = (Vehicle) super.clone();
@@ -33,8 +39,8 @@ public class Vehicle implements Cloneable {
     public String getOwnerName() { return ownerName; }
     public void setOwnerName(String newOwnerName) { ownerName = newOwnerName; }
 
-    public void start() {
-        // TODO
+    public boolean start(EnergySource es) {
+        return es.empty();
     }
 
 }

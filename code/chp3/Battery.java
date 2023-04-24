@@ -1,9 +1,9 @@
 package chp3;
 
 public class Battery extends EnergySource {
-
     @Override
-    protected void empty() {
-        System.out.println("empty() in Battery");
+    public boolean empty() {
+        System.out.println("Enter Battery::empty");
+        return false;
     }
 }

@@ -1,5 +1,6 @@
 package chp3;
 
+import chp2.Vehicle;
 import chp2.VehicleV4;
 
 /**
@@ -36,6 +37,11 @@ public class PassengerVehicle extends VehicleV4 implements Cloneable {
         vehicle.setNumberCurrentlyOccupied(4);
 
         System.out.println(vehicle);
+
+        PassengerVehicle v = new PassengerVehicle();
+        Battery battery = new Battery();
+        boolean batteryIsEmpty = v.start(battery);
+        System.out.println("Battery is empty: " + batteryIsEmpty);
     }
 
 }
