@@ -5,7 +5,7 @@ import chp2.VehicleV4;
 /**
  * Exercise 3.1
  */
-public class PassengerVehicle extends VehicleV4 {
+public class PassengerVehicle extends VehicleV4 implements Cloneable {
 
     private int numberOfSeats;
     private int numberCurrentlyOccupied;
@@ -14,6 +14,10 @@ public class PassengerVehicle extends VehicleV4 {
     public final void setNumberOfSeats(int numberOfSeats) { this.numberOfSeats = numberOfSeats; }
     public int getNumberCurrentlyOccupied() { return numberCurrentlyOccupied; }
     public void setNumberCurrentlyOccupied(int numberCurrentlyOccupied) { this.numberCurrentlyOccupied = numberCurrentlyOccupied; }
+
+    protected PassengerVehicle clone() {
+        return (PassengerVehicle) super.clone();
+    }
 
     public String toString() {
         return "Owner Name: " + getOwnerName()

@@ -4,7 +4,7 @@ package chp2;
 
 import chp3.EnergySource;
 
-public class Vehicle {
+public class Vehicle implements Cloneable {
 
     private long id;
     private double currentSpeed;
@@ -13,6 +13,17 @@ public class Vehicle {
     private EnergySource energySource;
 
     private static long nextId;
+
+    protected Vehicle clone() {
+        try {
+            Vehicle vehicleClone = (Vehicle) super.clone();
+            vehicleClone.ownerName = new String(ownerName);
+            vehicleClone.energySource = energySource.clone();
+            return vehicleClone;
+        } catch (CloneNotSupportedException e) {
+            throw new InternalError(e.toString());
+        }
+    }
 
     public long getId() { return id; }
     public double getCurrentSpeed() { return currentSpeed; }
