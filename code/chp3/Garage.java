@@ -5,15 +5,18 @@ import chp2.Vehicle;
 class Garage extends Vehicle implements Cloneable {
 
     private Vehicle[] vehicles;
-    private int capacity;
 
     public Garage(int capacity) {
         this.vehicles = new Vehicle[capacity];
     }
 
-    protected Garage clone() {
+    public Garage clone() {
         Garage garageClone = (Garage) super.clone();
-        garageClone.vehicles = new Vehicle[]{super.clone()};
+        Vehicle[] vehiclesClone = new Vehicle[vehicles.length];
+        for (int i = 0; i < vehicles.length; i++) {
+            vehiclesClone[i] = vehicles[i].clone();
+        }
+        garageClone.vehicles = vehiclesClone;
         return garageClone;
     }
 
@@ -24,6 +27,7 @@ class Garage extends Vehicle implements Cloneable {
         firstVehicle.setOwnerName("Mike");
         firstGarage.vehicles[0] = firstVehicle;
 
+        // -------------------------------------
         Vehicle secondVehicle = new Vehicle();
         secondVehicle.setOwnerName("Jake");
         firstGarage.vehicles[1] = secondVehicle;

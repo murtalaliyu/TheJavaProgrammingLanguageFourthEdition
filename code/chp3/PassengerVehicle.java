@@ -3,9 +3,6 @@ package chp3;
 import chp2.Vehicle;
 import chp2.VehicleV4;
 
-/**
- * Exercise 3.1
- */
 public class PassengerVehicle extends VehicleV4 implements Cloneable {
 
     private int numberOfSeats;
@@ -16,7 +13,7 @@ public class PassengerVehicle extends VehicleV4 implements Cloneable {
     public int getNumberCurrentlyOccupied() { return numberCurrentlyOccupied; }
     public void setNumberCurrentlyOccupied(int numberCurrentlyOccupied) { this.numberCurrentlyOccupied = numberCurrentlyOccupied; }
 
-    protected PassengerVehicle clone() {
+    public PassengerVehicle clone() {
         return (PassengerVehicle) super.clone();
     }
 
@@ -42,6 +39,10 @@ public class PassengerVehicle extends VehicleV4 implements Cloneable {
         Battery battery = new Battery();
         boolean batteryIsEmpty = v.start(battery);
         System.out.println("Battery is empty: " + batteryIsEmpty);
+
+        GasTank gasTank = new GasTank();
+        boolean gasTankIsEmpty = v.start(gasTank);
+        System.out.println("Gas Tank is empty: " + gasTankIsEmpty);
     }
 
 }

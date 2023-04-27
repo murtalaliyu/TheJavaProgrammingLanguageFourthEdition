@@ -1,7 +1,5 @@
 package chp2;
 
-/** EXERCISE 3.6 IS INCONCLUSIVE */
-
 import chp3.EnergySource;
 
 public class Vehicle implements Cloneable {
@@ -20,11 +18,11 @@ public class Vehicle implements Cloneable {
         this.energySource = energySource;
     }
 
-    protected Vehicle clone() {
+    public Vehicle clone() {
         try {
             Vehicle vehicleClone = (Vehicle) super.clone();
-            vehicleClone.ownerName = new String(ownerName);
-            vehicleClone.energySource = energySource.clone();
+            vehicleClone.ownerName = ownerName;
+//            vehicleClone.energySource = energySource.clone();
             return vehicleClone;
         } catch (CloneNotSupportedException e) {
             throw new InternalError(e.toString());
