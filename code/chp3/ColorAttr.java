@@ -1,7 +1,5 @@
 package chp3;
 
-import java.util.Objects;
-
 class ColorAttr extends Attr {
 
     private ScreenColor myColor;    // the decoded color
