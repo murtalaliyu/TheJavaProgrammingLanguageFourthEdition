@@ -1,2 +1,3 @@
 - Exercise 3.3 [p. 83]
 - Exercise 3.6 [p. 99]
+- Exercise 3.11 [p. 114]

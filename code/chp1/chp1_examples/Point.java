@@ -1,9 +1,10 @@
 package chp1.chp1_examples;
 
-class Point {
+class Point implements Comparable<Point> {
     private static int serialNumber;    // this guy is shared among all instances of Point because it is meant to be a "class-wide" variable
     private double x, y;    // instance variables are unique for each Point object
-    private static Point origin = new Point();   // this guy is now shared across all instances of Point
+    /** Origin reference that never changes */
+    private static final Point ORIGIN = new Point();   // this guy is now shared across all instances of Point
 
     public void clear() {
         x = 0.0;
@@ -19,6 +20,15 @@ class Point {
         double xdiff = x - that.x;
         double ydiff = y - that.y;
         return Math.sqrt(xdiff*xdiff + ydiff*ydiff);    // sqrt here is also a static method
+    }
+
+    @Override
+    public int compareTo(Point p) {
+        double pDist = p.distance(ORIGIN);
+        double dist = this.distance(ORIGIN);
+        if (dist > pDist) return 1;
+        else if (dist == pDist) return 0;
+        return -1;
     }
 
     /**

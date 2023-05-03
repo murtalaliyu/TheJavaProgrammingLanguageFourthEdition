@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C03-ExtendingClasses/10. Cloning Objects.md",
+                "file": "Look Into.md",
                 "mode": "source",
                 "source": false
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C03-ExtendingClasses/10. Cloning Objects.md",
+                "file": "Look Into.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C03-ExtendingClasses/10. Cloning Objects.md",
+                "file": "Look Into.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C03-ExtendingClasses/10. Cloning Objects.md"
+                "file": "Look Into.md"
               }
             }
           }
@@ -244,8 +244,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1b703ea8eee59a3a",
+  "active": "9a7a36a9142ceb67",
   "lastOpenFiles": [
+    "C03-ExtendingClasses/10. Cloning Objects.md",
     "out/production/The Java Programming Language, Fourth Edition/chp3/SimpleSortObject.class",
     "out/production/The Java Programming Language, Fourth Edition/chp3/TestSort.class",
     "code/chp3/SimpleSortObject.java",
@@ -256,9 +257,7 @@
     "code/chp3/SortObject.java",
     "code/chp3/SortObjects.java",
     "out/production/The Java Programming Language, Fourth Edition/chp3/SimpleSortDouble.class",
-    "out/production/The Java Programming Language, Fourth Edition/chp3/ScreenColor.class",
     "C03-ExtendingClasses/9. Abstract Classes and Methods.md",
-    "C03-ExtendingClasses/10. Cloning Objects.md",
     "Look Into.md",
     "C03-ExtendingClasses/3. Constructor Order Dependencies.md",
     "out/production/The Java Programming Language, Fourth Edition/9. Abstract Classes and Methods.md",

@@ -1,5 +1,9 @@
 package chp3;
 
+/**
+ * EXERCISE 3.11 IS INCONCLUSIVE
+ */
+
 abstract class SortDouble {
 
     private double[] values;
