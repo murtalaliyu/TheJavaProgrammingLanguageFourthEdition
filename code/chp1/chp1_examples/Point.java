@@ -1,6 +1,6 @@
 package chp1.chp1_examples;
 
-class Point implements Comparable<Point> {
+public class Point implements Comparable<Point> {
     private static int serialNumber;    // this guy is shared among all instances of Point because it is meant to be a "class-wide" variable
     private double x, y;    // instance variables are unique for each Point object
     /** Origin reference that never changes */

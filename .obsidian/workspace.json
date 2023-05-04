@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "597c2b8a31c8be70",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C03-ExtendingClasses/9. Abstract Classes and Methods.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "9a7a36a9142ceb67",
             "type": "leaf",
             "state": {
@@ -32,91 +20,55 @@
             }
           },
           {
-            "id": "64bc96c996b5aa9e",
+            "id": "0befa1eed096eefe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C03-ExtendingClasses/4. Inheriting and Redefining Members.md",
+                "file": "C04-Interfaces/1. The Power of Interfaces.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "9cf72a7daa7735b6",
+            "id": "79468450953755cc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C03-ExtendingClasses/5. Accessing Inherited Members.md",
+                "file": "C04-Interfaces/2. Interface Declarations.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ea159ec61973a6f8",
+            "id": "9a88320b128c12a9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C03-ExtendingClasses/6. Type Compatibility and Conversion.md",
+                "file": "C04-Interfaces/3. Interface Methods.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "057a4650a7dffc1d",
+            "id": "e5d7158d1a922e76",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C03-ExtendingClasses/7. What protected Really Means.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "28a5c0dbe0c9b13d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C03-ExtendingClasses/8. Final Methods and Classes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0bd3b28b9b3db85a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C03-ExtendingClasses/9. Abstract Classes and Methods.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d16918e8aa4a6329",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Look Into.md",
+                "file": "C04-Interfaces/4. Interface Modifiers.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -182,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Look Into.md",
+                "file": "C04-Interfaces/4. Interface Modifiers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Look Into.md",
+                "file": "C04-Interfaces/4. Interface Modifiers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Look Into.md"
+                "file": "C04-Interfaces/4. Interface Modifiers.md"
               }
             }
           }
@@ -244,43 +196,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9a7a36a9142ceb67",
+  "active": "e5d7158d1a922e76",
   "lastOpenFiles": [
-    "C03-ExtendingClasses/10. Cloning Objects.md",
-    "out/production/The Java Programming Language, Fourth Edition/chp3/SimpleSortObject.class",
-    "out/production/The Java Programming Language, Fourth Edition/chp3/TestSort.class",
-    "code/chp3/SimpleSortObject.java",
-    "out/production/The Java Programming Language, Fourth Edition/chp3/SimpleSortString.class",
-    "out/production/The Java Programming Language, Fourth Edition/chp3/SortObject.class",
-    "code/chp3/TestSort.java~",
-    "code/chp3/SimpleSortString.java",
-    "code/chp3/SortObject.java",
-    "code/chp3/SortObjects.java",
-    "out/production/The Java Programming Language, Fourth Edition/chp3/SimpleSortDouble.class",
-    "C03-ExtendingClasses/9. Abstract Classes and Methods.md",
+    "C04-Interfaces/3. Interface Methods.md",
+    "C04-Interfaces/4. Interface Modifiers.md",
+    "C04-Interfaces/2. Interface Declarations.md",
+    "code/chp4/Verbose.java",
+    "C04-Interfaces/1. The Power of Interfaces.md",
+    "code/chp4/Sorter.java~",
+    "C03-ExtendingClasses/5. Accessing Inherited Members.md",
+    "C03-ExtendingClasses/4. Inheriting and Redefining Members.md",
     "Look Into.md",
-    "C03-ExtendingClasses/3. Constructor Order Dependencies.md",
-    "out/production/The Java Programming Language, Fourth Edition/9. Abstract Classes and Methods.md",
-    "out/production/The Java Programming Language, Fourth Edition/8. Final Methods and Classes.md",
+    "C03-ExtendingClasses/9. Abstract Classes and Methods.md",
+    "C03-ExtendingClasses/1. Extending Classes.md",
+    "C01-AQuickTour/Exceptions.md",
+    "C01-AQuickTour/Generic Types.md",
+    "C01-AQuickTour/Interfaces.md",
+    "C01-AQuickTour/Operators.md",
+    "C01-AQuickTour/Packages.md",
+    "C01-AQuickTour/Static Fields & Methods.md",
+    "C01-AQuickTour/String Formatting (printf).md",
     "C03-ExtendingClasses/8. Final Methods and Classes.md",
     "C03-ExtendingClasses/7. What protected Really Means.md",
-    "out/production/The Java Programming Language, Fourth Edition/7. What protected Really Means.md",
-    "out/production/The Java Programming Language, Fourth Edition/6. Type Compatibility and Conversion.md",
     "C03-ExtendingClasses/6. Type Compatibility and Conversion.md",
-    "C03-ExtendingClasses/5. Accessing Inherited Members.md",
-    "out/production/The Java Programming Language, Fourth Edition/5. Accessing Inherited Members.md",
-    "C03-ExtendingClasses/4. Inheriting and Redefining Members.md",
-    "out/production/The Java Programming Language, Fourth Edition/4. Inheriting and Redefining Members.md",
-    "out/production/The Java Programming Language, Fourth Edition/3. Constructor Order Dependencies.md",
-    "out/production/The Java Programming Language, Fourth Edition/2. Constructors in Extended Classes.md",
-    "out/production/The Java Programming Language, Fourth Edition/1. Extending Classes.md",
+    "C03-ExtendingClasses/3. Constructor Order Dependencies.md",
     "C03-ExtendingClasses/2. Constructors in Extended Classes.md",
-    "C03-ExtendingClasses/1. Extending Classes.md",
     "C02-ClassesAndObjects/7. Native Methods.md",
     "C02-ClassesAndObjects/6. Methods.md",
     "C02-ClassesAndObjects/5. Construction & Initialization.md",
     "C02-ClassesAndObjects/4. Creating Objects.md",
     "C02-ClassesAndObjects/3. Fields.md",
+    "code/chp4/Sorter.java",
+    "code/chp4",
+    "C04-Interfaces",
+    "out/production/The Java Programming Language, Fourth Edition/chp3/SimpleSortObject.class",
+    "out/production/The Java Programming Language, Fourth Edition/chp3/TestSort.class",
+    "code/chp3/SimpleSortObject.java",
+    "out/production/The Java Programming Language, Fourth Edition/chp3/SimpleSortString.class",
+    "out/production/The Java Programming Language, Fourth Edition/chp3/SortObject.class",
     "Untitled.canvas"
   ]
 }
