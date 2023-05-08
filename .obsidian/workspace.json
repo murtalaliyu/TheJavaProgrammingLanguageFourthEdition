@@ -8,67 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9a7a36a9142ceb67",
+            "id": "1abeff122d094834",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Look Into.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0befa1eed096eefe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C04-Interfaces/1. The Power of Interfaces.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "79468450953755cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C04-Interfaces/2. Interface Declarations.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9a88320b128c12a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C04-Interfaces/3. Interface Methods.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e5d7158d1a922e76",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C04-Interfaces/4. Interface Modifiers.md",
+                "file": "C04-Interfaces/8. Inheriting, Overriding, and Overloading Methods.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -134,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C04-Interfaces/4. Interface Modifiers.md",
+                "file": "C04-Interfaces/8. Inheriting, Overriding, and Overloading Methods.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C04-Interfaces/4. Interface Modifiers.md",
+                "file": "C04-Interfaces/8. Inheriting, Overriding, and Overloading Methods.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C04-Interfaces/4. Interface Modifiers.md"
+                "file": "C04-Interfaces/8. Inheriting, Overriding, and Overloading Methods.md"
               }
             }
           }
@@ -196,14 +147,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e5d7158d1a922e76",
+  "active": "1abeff122d094834",
   "lastOpenFiles": [
-    "C04-Interfaces/3. Interface Methods.md",
-    "C04-Interfaces/4. Interface Modifiers.md",
-    "C04-Interfaces/2. Interface Declarations.md",
-    "code/chp4/Verbose.java",
+    "code/chp4/GraphicalCardDealer.java~",
+    "code/chp4/GraphicalCardDealer.java",
+    "code/chp4/GraphicalComponent.java~",
+    "code/chp4/GraphicalComponent.java",
     "C04-Interfaces/1. The Power of Interfaces.md",
-    "code/chp4/Sorter.java~",
+    "C04-Interfaces/8. Inheriting, Overriding, and Overloading Methods.md",
+    "C04-Interfaces/2. Interface Declarations.md",
+    "C04-Interfaces/3. Interface Constants.md",
+    "C04-Interfaces/4. Interface Methods.md",
+    "C04-Interfaces/5. Interface Modifiers.md",
+    "C04-Interfaces/6. Extending Interfaces.md",
+    "C04-Interfaces/7. Inheriting and Hiding Constants.md",
+    "code/chp4/CardDealer.java~",
+    "code/chp4/CardDealer.java",
+    "code/chp4/D.java~",
+    "code/chp4/D.java",
+    "code/chp4/C.java",
+    "out/production/The Java Programming Language, Fourth Edition/chp1/chp1_examples/Color.class",
+    "out/production/The Java Programming Language, Fourth Edition/chp1/chp1_examples/Pixel.class",
     "C03-ExtendingClasses/5. Accessing Inherited Members.md",
     "C03-ExtendingClasses/4. Inheriting and Redefining Members.md",
     "Look Into.md",
@@ -221,19 +185,6 @@
     "C03-ExtendingClasses/6. Type Compatibility and Conversion.md",
     "C03-ExtendingClasses/3. Constructor Order Dependencies.md",
     "C03-ExtendingClasses/2. Constructors in Extended Classes.md",
-    "C02-ClassesAndObjects/7. Native Methods.md",
-    "C02-ClassesAndObjects/6. Methods.md",
-    "C02-ClassesAndObjects/5. Construction & Initialization.md",
-    "C02-ClassesAndObjects/4. Creating Objects.md",
-    "C02-ClassesAndObjects/3. Fields.md",
-    "code/chp4/Sorter.java",
-    "code/chp4",
-    "C04-Interfaces",
-    "out/production/The Java Programming Language, Fourth Edition/chp3/SimpleSortObject.class",
-    "out/production/The Java Programming Language, Fourth Edition/chp3/TestSort.class",
-    "code/chp3/SimpleSortObject.java",
-    "out/production/The Java Programming Language, Fourth Edition/chp3/SimpleSortString.class",
-    "out/production/The Java Programming Language, Fourth Edition/chp3/SortObject.class",
     "Untitled.canvas"
   ]
 }
