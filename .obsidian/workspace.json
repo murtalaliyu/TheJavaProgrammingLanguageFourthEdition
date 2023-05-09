@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "afe6207527f88be7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C04-Interfaces/9. Using an Implementation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C04-Interfaces/8. Inheriting, Overriding, and Overloading Methods.md",
+                "file": "C04-Interfaces/9. Using an Implementation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C04-Interfaces/8. Inheriting, Overriding, and Overloading Methods.md",
+                "file": "C04-Interfaces/9. Using an Implementation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C04-Interfaces/8. Inheriting, Overriding, and Overloading Methods.md"
+                "file": "C04-Interfaces/9. Using an Implementation.md"
               }
             }
           }
@@ -147,14 +160,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1abeff122d094834",
+  "active": "1b703ea8eee59a3a",
   "lastOpenFiles": [
+    "code/chp4/AttributedBody.java",
+    "C04-Interfaces/8. Inheriting, Overriding, and Overloading Methods.md",
+    "C04-Interfaces/9. Using an Implementation.md",
+    "code/chp4/AttributedImpl.java",
+    "code/chp4/Attributed.java",
     "code/chp4/GraphicalCardDealer.java~",
     "code/chp4/GraphicalCardDealer.java",
     "code/chp4/GraphicalComponent.java~",
     "code/chp4/GraphicalComponent.java",
     "C04-Interfaces/1. The Power of Interfaces.md",
-    "C04-Interfaces/8. Inheriting, Overriding, and Overloading Methods.md",
     "C04-Interfaces/2. Interface Declarations.md",
     "C04-Interfaces/3. Interface Constants.md",
     "C04-Interfaces/4. Interface Methods.md",
@@ -165,9 +182,6 @@
     "code/chp4/CardDealer.java",
     "code/chp4/D.java~",
     "code/chp4/D.java",
-    "code/chp4/C.java",
-    "out/production/The Java Programming Language, Fourth Edition/chp1/chp1_examples/Color.class",
-    "out/production/The Java Programming Language, Fourth Edition/chp1/chp1_examples/Pixel.class",
     "C03-ExtendingClasses/5. Accessing Inherited Members.md",
     "C03-ExtendingClasses/4. Inheriting and Redefining Members.md",
     "Look Into.md",
@@ -184,7 +198,6 @@
     "C03-ExtendingClasses/7. What protected Really Means.md",
     "C03-ExtendingClasses/6. Type Compatibility and Conversion.md",
     "C03-ExtendingClasses/3. Constructor Order Dependencies.md",
-    "C03-ExtendingClasses/2. Constructors in Extended Classes.md",
     "Untitled.canvas"
   ]
 }
