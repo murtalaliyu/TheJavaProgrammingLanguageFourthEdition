@@ -1,8 +1,10 @@
 package chp2;
 
+import chp4.CloneableLinkedList;
+
 /** EXERCISE 3.10 IS INCONCLUSIVE */
 
-public class LinkedList implements Cloneable {
+public class LinkedList implements CloneableLinkedList {
 
     private Object object;
     private LinkedList next;

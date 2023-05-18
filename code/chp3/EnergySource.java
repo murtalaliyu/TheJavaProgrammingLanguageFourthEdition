@@ -1,8 +1,8 @@
 package chp3;
 
-public abstract class EnergySource {
+public interface EnergySource {
 
-    public abstract boolean empty();
+    boolean empty();
 
 //    public EnergySource clone() throws CloneNotSupportedException { return (EnergySource) super.clone(); }
 

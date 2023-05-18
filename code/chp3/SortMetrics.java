@@ -5,7 +5,7 @@ package chp3;
  * The class has three public fields. Its only task is to communicate
  * data, so there's no need to hide that data behind accessor methods.
  */
-final class SortMetrics implements Cloneable {
+public final class SortMetrics implements Cloneable {
 
     public long probeCnt,       // simple data probes
                 compareCnt,     // comparing two elements
