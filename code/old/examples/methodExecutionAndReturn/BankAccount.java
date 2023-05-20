@@ -13,10 +13,36 @@ public class BankAccount {
         return perm;
     }
 
+    /**
+     * Static Nested Class:
+     * We declare Permissions to be public because
+     * programmers using BankAccount need to use the class
+     */
+    public static class Permissions {
+        public boolean canDeposit,
+                        canWithdraw,
+                        canClose;
+    }
+
     public boolean canDeposit(Person who) { return true; }
     public boolean canWithdraw(Person who) { return true; }
     public boolean canClose(Person who) { return true; }
 
+    public long getNumber() {
+        return number;
+    }
+
+    public void setNumber(long number) {
+        this.number = number;
+    }
+
+    public long getBalance() {
+        return balance;
+    }
+
+    public void setBalance(long balance) {
+        this.balance = balance;
+    }
 }
 
 class Person {}

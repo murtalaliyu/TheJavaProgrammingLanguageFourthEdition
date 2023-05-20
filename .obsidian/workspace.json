@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "c362f0f2471ec791",
+        "id": "0bc53f337f08e594",
         "type": "tabs",
         "children": [
           {
-            "id": "1abeff122d094834",
+            "id": "e466555a89b4a43c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C04-Interfaces/08. Inheriting, Overriding, and Overloading Methods.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "afe6207527f88be7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C04-Interfaces/10. When to Use Interfaces.md",
+                "file": "C05-NestedClassesAndInterfaces/05. Inner Classes.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C04-Interfaces/10. When to Use Interfaces.md",
+                "file": "C05-NestedClassesAndInterfaces/05. Inner Classes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C04-Interfaces/10. When to Use Interfaces.md",
+                "file": "C05-NestedClassesAndInterfaces/05. Inner Classes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C04-Interfaces/10. When to Use Interfaces.md"
+                "file": "C05-NestedClassesAndInterfaces/05. Inner Classes.md"
               }
             }
           }
@@ -168,19 +155,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1b703ea8eee59a3a",
+  "active": "e466555a89b4a43c",
   "lastOpenFiles": [
+    "code/chp5/BankAccount.java",
+    "code/chp5",
+    "code/chp4/BankAccount.java",
+    "C05-NestedClassesAndInterfaces/04. Nested Interfaces.md",
+    "C05-NestedClassesAndInterfaces/05. Inner Classes.md",
+    "C05-NestedClassesAndInterfaces/03. Static Nested Classes.md",
+    "code/old/examples/methodExecutionAndReturn/BankAccount.java~",
+    "C05-NestedClassesAndInterfaces/02. Static Nested Types.md",
+    "C05-NestedClassesAndInterfaces/01. Intro.md",
+    "C04-Interfaces/10. When to Use Interfaces.md",
+    "C05-NestedClassesAndInterfaces",
     "code/chp2/LinkedList.java~",
     "code/chp4/CloneableLinkedList.java",
     "code/chp4/SorterInterfaceVersion.java",
     "code/chp4/CollectionHierarchy.java",
     "out/production/The Java Programming Language, Fourth Edition/chp2/Vehicle.class",
     "out/production/The Java Programming Language, Fourth Edition/chp3/PassengerVehicle.class",
-    "out/production/The Java Programming Language, Fourth Edition/chp4/GraphicalComponent.class",
-    "out/production/The Java Programming Language, Fourth Edition/chp4/GraphicalComponent$Color.class",
-    "out/production/The Java Programming Language, Fourth Edition/chp4/GraphicalComponent$Device.class",
-    "out/production/The Java Programming Language, Fourth Edition/chp4/GraphicalCardDealer.class",
-    "out/production/The Java Programming Language, Fourth Edition/chp4/D.class",
     "C04-Interfaces/09. Using an Implementation.md",
     "C04-Interfaces/08. Inheriting, Overriding, and Overloading Methods.md",
     "C04-Interfaces/07. Inheriting and Hiding Constants.md",
@@ -190,7 +183,6 @@
     "C04-Interfaces/03. Interface Constants.md",
     "C04-Interfaces/02. Interface Declarations.md",
     "C04-Interfaces/01. The Power of Interfaces.md",
-    "C04-Interfaces/10. When to Use Interfaces.md",
     "C03-ExtendingClasses/5. Accessing Inherited Members.md",
     "C03-ExtendingClasses/4. Inheriting and Redefining Members.md",
     "Look Into.md",
@@ -201,11 +193,6 @@
     "C01-AQuickTour/Interfaces.md",
     "C01-AQuickTour/Operators.md",
     "C01-AQuickTour/Packages.md",
-    "C01-AQuickTour/Static Fields & Methods.md",
-    "C01-AQuickTour/String Formatting (printf).md",
-    "C03-ExtendingClasses/8. Final Methods and Classes.md",
-    "C03-ExtendingClasses/7. What protected Really Means.md",
-    "C03-ExtendingClasses/6. Type Compatibility and Conversion.md",
     "Untitled.canvas"
   ]
 }

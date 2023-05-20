@@ -39,18 +39,18 @@ abstract class SortObject<T extends Comparable<T>> implements Sorter1<T> {
     }
 
     /** For extended classes to know the number of elements */
-    protected final int getDataLength() {
+    public final int getDataLength() {
         return values.length;
     }
 
     /** For extended classes to probe elements */
-    protected final T probe(int i) {
+    public final T probe(int i) {
         curMetrics.probeCnt++;
         return values[i];
     }
 
     /** For extended classes to swap elements */
-    protected final void swap(int i, int j) {
+    public final void swap(int i, int j) {
         curMetrics.swapCnt++;
         T tmp = values[i];
         values[i] = values[j];
