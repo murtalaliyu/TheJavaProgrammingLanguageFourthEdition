@@ -16,7 +16,7 @@ public class BankAccount {
     /**
      * Static Nested Class:
      * We declare Permissions to be public because
-     * programmers using BankAccount need to use the class
+     * programmers using BankAccountV2 need to use the class
      */
     public static class Permissions {
         public boolean canDeposit,

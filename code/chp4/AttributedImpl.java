@@ -1,12 +1,10 @@
 package chp4;
 
-import chp3.Attr;
-
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
-class AttributedImpl implements Attributed, Iterable<Attr> {
+class AttributedImpl implements Attributed, Iterable<Attributed.Attr> {
 
     Map<String, Attr> attrTable = new HashMap<String, Attr>();
 

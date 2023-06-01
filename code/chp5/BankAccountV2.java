@@ -1,7 +1,9 @@
 package chp5;
 
-public class BankAccount extends old.examples.methodExecutionAndReturn.BankAccount {
-    private Action lastAction;  // last action performed
+import old.examples.methodExecutionAndReturn.BankAccount;
+
+public class BankAccountV2 extends BankAccount {
+    private Action lastAct;  // last action performed
 
     public class Action {
         private String act;
@@ -18,14 +20,21 @@ public class BankAccount extends old.examples.methodExecutionAndReturn.BankAccou
 
     public void deposit(long amount) {
         setBalance(getBalance()+amount);
-        lastAction = new Action("deposit", amount);
+        lastAct = new Action("deposit", amount);
     }
 
     public void withdraw(long amount) {
         setBalance(getBalance()-amount);
-        lastAction = new Action("withdraw", amount);
+        lastAct = new Action("withdraw", amount);
     }
 
     // ...
+
+    public void transfer(BankAccountV2 other, long amount) {
+        other.withdraw(amount);
+        deposit(amount);
+        lastAct = this.new Action("transfer", amount);
+        other.lastAct = other.new Action("transfer", amount);
+    }
 
 }

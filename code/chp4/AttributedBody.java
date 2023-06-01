@@ -1,6 +1,5 @@
 package chp4;
 
-import chp3.Attr;
 import old.examples.initializationBlocks.Body;
 
 import java.util.Iterator;

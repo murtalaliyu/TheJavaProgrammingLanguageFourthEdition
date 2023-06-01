@@ -1,6 +1,8 @@
 package chp3;
 
-class ColorAttr extends Attr {
+import chp4.Attributed;
+
+class ColorAttr extends Attributed.Attr {
 
     private ScreenColor myColor;    // the decoded color
 
